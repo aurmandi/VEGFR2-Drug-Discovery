@@ -6,9 +6,13 @@ This repository hosts a comprehensive pipeline that integrates machine learning,
 ## Project Description
 Our pipeline is designed to tackle the complexities of drug discovery in a systematic and data-driven manner. The key steps are as follows:
 - **Data Curation & Labeling:** Biomolecules with experimentally determined IC50 values are partitioned by a set threshold. Molecules exhibiting lower (more inhibitory) IC50 values are labeled as 1, while the rest are labeled 0.
+  
 - **Model Development & Evaluation:** Various machine learning algorithms and multiple SMILES fingerprint descriptors are compared to ascertain the most predictive models.
+- 
 - **Similarity Search Expansion:** The PubChem REST API is used to retrieve hundreds of similar compounds (based on Tanimoto similarity) to the best-performing inhibitors.
+- 
 - **Predictive Filtering & Docking:** The pre-validated model filters these similar molecules to prioritize candidates for molecular docking. Ultimately, the top three molecules with the best predicted binding profiles are selected for further investigation.
+- 
 - **Integrated Reporting:** Detailed summaries and result files are generated at every stage for transparency and reproducibility.
 
 ## Features
