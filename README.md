@@ -24,7 +24,8 @@ Our pipeline is designed to tackle the complexities of drug discovery in a syste
    ```bash
    git clone https://github.com/aurmandi/?
    cd ?
-## Requirements:
+## Requirements
 ?
 ?
 ?
+## Usage
