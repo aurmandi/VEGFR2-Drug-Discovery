@@ -1,1 +1,2 @@
-# Drug-Discovery - Finding potential inhibitory molecules for vascular endothelial growth factor 2 (VEGFR2)
+Overview
+This repository documents our integrated machine learning pipeline designed for the discovery of novel VEGFR2 inhibitors. In our study, we processed experimental biomolecule data—including IC50 measurements—to classify compounds as inhibitory or non-inhibitory. By leveraging diverse SMILES-derived fingerprints and evaluating multiple ML models, we identified the best-performing classifier. We then exploited the PubChem REST API to retrieve structurally similar compounds (using Tanimoto similarity) to our top inhibitors. The shortlisted molecules are now primed for further analysis via molecular docking.
