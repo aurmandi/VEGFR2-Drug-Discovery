@@ -29,3 +29,32 @@ Our pipeline is designed to tackle the complexities of drug discovery in a syste
 ?
 ?
 ## Usage
+?
+?
+?
+## Citation
+If you find our work useful for your research or project, please cite it using the following format:
+
+**BibTeX:**
+```bibtex
+@article{your_paper,
+  author    = {Your Name and Co-Authors},
+  title     = {Machine Learning-Driven Identification of VEGFR2 Inhibitors: An Integrated Computational Approach},
+  journal   = {Journal Name or Preprint Repository},
+  year      = {2025},
+  volume    = {XX},
+  pages     = {XX-XX},
+  doi       = {10.XXXX/XXXXX},
+}
+```
+
+**Alternatively, use:**
+
+**APA:**  
+Your Name, Co-Authors. (2025). *ML-Driven VEGFR2 Inhibitor Discovery Pipeline*. GitHub repository. Available at: [https://github.com/yourusername/ML-VEGFR2-Inhibitor-Pipeline](https://github.com/yourusername/ML-VEGFR2-Inhibitor-Pipeline)
+
+If you use our methodology or dataset in your research, please acknowledge our work by citing appropriately.
+
+## Contact
+**Email:**
+arman.dinarvand100@gmail.com & ?
