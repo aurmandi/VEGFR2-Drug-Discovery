@@ -39,17 +39,13 @@ pip install -r requirements.txt
 * Dependencies: *
 The main dependencies are listed in requirements.txt and include:
 
-rdkit-pypi
-
-scikit-learn
-
-xgboost
-
-pandas
-
-tkinter (for the GUI, usually included with Python)
-
+numpy
+joblib
+rdkit
 standardiser
+scikit-learn
+xgboost
+pillow
 
 ## Usage
 Graphical User Interface (GUI)
