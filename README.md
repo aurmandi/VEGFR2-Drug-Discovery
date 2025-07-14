@@ -3,14 +3,13 @@
 
 A user-friendly graphical interface and command-line tool that leverages machine learning to predict the inhibitory activity of small molecules against Vascular Endothelial Growth Factor Receptor 2 (VEGFR2). This tool is the official implementation of the models described in our paper:
 
-
-Overview
+## Overview
 VEGFR2 is a critical therapeutic target in oncology. This project provides a robust and validated tool to accelerate the discovery of novel VEGFR2 inhibitors by providing rapid, in silico predictions of a compound's potential activity.
 
 VEGFR2pred uses an ensemble of machine learning models trained on a curated dataset of over 17,000 compounds to classify a molecule as a potential VEGFR2 inhibitor or non-inhibitor based on its chemical structure (provided as a SMILES string).
 
 
-Features
+## Features
 Multiple High-Performing Models: Utilizes three robust machine learning models: Support Vector Machine (SVM), Random Forest (RF), and XGBoost.
 
 Dual Fingerprint Analysis: Generates predictions using two of the most informative molecular fingerprints: ECFP-like and RDKit fingerprints.
@@ -23,7 +22,7 @@ Simple User Interface: Includes an easy-to-use Graphical User Interface (GUI) fo
 
 Command-Line Interface: Also available as a script for high-throughput screening and integration into automated workflows.
 
-Installation
+## Installation
 To get started with VEGFR2pred, clone the repository and install the required dependencies. A Python version of 3.8 or higher is recommended.
 
 # 1. Clone the repository
