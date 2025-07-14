@@ -25,18 +25,18 @@ Command-Line Interface: Also available as a script for high-throughput screening
 ## Installation
 To get started with VEGFR2pred, clone the repository and install the required dependencies. A Python version of 3.8 or higher is recommended.
 
-# 1. Clone the repository
+### 1. Clone the repository
 git clone [https://github.com/your-username/VEGFR2pred.git](https://github.com/your-username/VEGFR2pred.git)
 cd VEGFR2pred
 
-# 2. (Recommended) Create and activate a virtual environment
+### 2. (Recommended) Create and activate a virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
-# 3. Install the required packages
+### 3. Install the required packages
 pip install -r requirements.txt
 
-Dependencies:
+* Dependencies: *
 The main dependencies are listed in requirements.txt and include:
 
 rdkit-pypi
