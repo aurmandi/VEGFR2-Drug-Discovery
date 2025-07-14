@@ -52,7 +52,7 @@ tkinter (for the GUI, usually included with Python)
 
 standardiser
 
-Usage
+** Usage **
 Graphical User Interface (GUI)
 To launch the graphical interface, run the following command from the project's root directory:
 
