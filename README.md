@@ -35,8 +35,7 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 ### 3. Install the required packages
 pip install -r requirements.txt
-
-* Dependencies: *
+#### Dependencies:
 The main dependencies are listed in requirements.txt and include:
 
 numpy  
