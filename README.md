@@ -1,18 +1,14 @@
-VEGFR2pred: A Machine Learning Tool for Predicting VEGFR2 Inhibition
- <!--- Replace with your paper's DOI when available --->
+# VEGFR2pred: A Machine Learning Tool for Predicting VEGFR2 Inhibition
+
 
 A user-friendly graphical interface and command-line tool that leverages machine learning to predict the inhibitory activity of small molecules against Vascular Endothelial Growth Factor Receptor 2 (VEGFR2). This tool is the official implementation of the models described in our paper:
 
-Your Paper Title Here
-
-Author One, Author Two, et al. (Your Journal, Year)
 
 Overview
 VEGFR2 is a critical therapeutic target in oncology. This project provides a robust and validated tool to accelerate the discovery of novel VEGFR2 inhibitors by providing rapid, in silico predictions of a compound's potential activity.
 
 VEGFR2pred uses an ensemble of machine learning models trained on a curated dataset of over 17,000 compounds to classify a molecule as a potential VEGFR2 inhibitor or non-inhibitor based on its chemical structure (provided as a SMILES string).
 
-<!--- Action Required: Replace this with a link to a screenshot of your GUI --->
 
 Features
 Multiple High-Performing Models: Utilizes three robust machine learning models: Support Vector Machine (SVM), Random Forest (RF), and XGBoost.
