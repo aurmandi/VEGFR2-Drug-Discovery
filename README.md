@@ -60,34 +60,10 @@ python gui.py
 Enter a SMILES string into the text box and click "Predict". The results will be displayed in the table.
 
 Command-Line Tool
-For programmatic use or batch processing, you can use the predict.py script.
+For programmatic use or batch processing, you can use the predict.py script:
 
 python predict.py --smiles "Cn1cnc2c1c(=O)n(c(=O)n2C)C"
 
-Example Output:
-
-{
-  "smiles": "Cn1cnc2c1c(=O)n(c(=O)n2C)C",
-  "standardized_smiles": "CN1C=NC2=C1C(=O)N(C)C(=O)N2C",
-  "predictions": {
-    "RF": {
-      "ECFP": { "class": 0, "probability": 0.86 },
-      "RDKit": { "class": 0, "probability": 0.80 }
-    },
-    "SVM": {
-      "ECFP": { "class": 0, "probability": 0.95 },
-      "RDKit": { "class": 0, "probability": 0.95 }
-    },
-    "XGB": {
-      "ECFP": { "class": 0, "probability": 0.92 },
-      "RDKit": { "class": 0, "probability": 0.99 }
-    }
-  },
-  "final_summary": {
-    "consensus_class": "Non-inhibitor",
-    "average_probability": 0.9117
-  }
-}
 
 ## How It Works
 The prediction process follows the workflow described in our paper:
