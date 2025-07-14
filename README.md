@@ -40,12 +40,12 @@ pip install -r requirements.txt
 The main dependencies are listed in requirements.txt and include:
 
 numpy  
-joblib
-rdkit
-standardiser
-scikit-learn
-xgboost
-pillow
+joblib  
+rdkit  
+standardiser  
+scikit-learn  
+xgboost  
+pillow  
 
 ## Usage
 Graphical User Interface (GUI)
