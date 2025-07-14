@@ -1,0 +1,7 @@
+numpy
+joblib
+rdkit
+standardiser
+scikit-learn
+xgboost
+pillow
