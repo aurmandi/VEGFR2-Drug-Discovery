@@ -51,7 +51,7 @@ tkinter (for the GUI, usually included with Python)
 
 standardiser
 
-* Usage *
+## Usage
 Graphical User Interface (GUI)
 To launch the graphical interface, run the following command from the project's root directory:
 
@@ -89,7 +89,7 @@ Example Output:
   }
 }
 
-How It Works
+## How It Works
 The prediction process follows the workflow described in our paper:
 
 Standardization: The input SMILES string is standardized to ensure a consistent molecular representation (e.g., tautomers corrected, salts removed).
