@@ -39,7 +39,7 @@ pip install -r requirements.txt
 * Dependencies: *
 The main dependencies are listed in requirements.txt and include:
 
-numpy
+numpy  
 joblib
 rdkit
 standardiser
