@@ -1,5 +1,6 @@
 # VEGFR2pred: A Machine Learning Tool for Predicting VEGFR2 Inhibition
 
+<img width="974" height="542" alt="image" src="https://github.com/user-attachments/assets/8c6f4e2f-f459-4cf6-a2e9-d8af689120cc" />
 
 A user-friendly graphical interface and command-line tool that leverages machine learning to predict the inhibitory activity of small molecules against Vascular Endothelial Growth Factor Receptor 2 (VEGFR2). This tool is the official implementation of the models described in our paper:
 
@@ -61,6 +62,9 @@ python predict.py --smiles "Cn1cnc2c1c(=O)n(c(=O)n2C)C"
 
 
 ## How It Works
+
+<img width="2162" height="1010" alt="image" src="https://github.com/user-attachments/assets/43a60bad-a977-4dc3-9e0a-72eab5509f01" />
+
 The prediction process follows the workflow described in our paper:
 
 Standardization: The input SMILES string is standardized to ensure a consistent molecular representation (e.g., tautomers corrected, salts removed).
