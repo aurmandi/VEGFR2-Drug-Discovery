@@ -1,4 +1,4 @@
-# VEGFR2pred: A Machine Learning Tool for Predicting VEGFR2 Inhibition
+# VEGFR2pred: A Machine Learning Tool for Predicting VEGFR2 Inhibitors
 
 <img width="974" height="542" alt="image" src="https://github.com/user-attachments/assets/8c6f4e2f-f459-4cf6-a2e9-d8af689120cc" />
 
